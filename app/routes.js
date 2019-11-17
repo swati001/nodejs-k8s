@@ -36,7 +36,11 @@ module.exports = function(app) {
                 res.send(err);
             else
                 // If no errors are found, it responds with a JSON of the new user
-                res.json(req.body);
+                // res.json(req.body);
+                res.json({
+                    message: 'New user created!',
+                    data: req.body
+                });
         });
     });
 
