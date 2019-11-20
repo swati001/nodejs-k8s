@@ -7,8 +7,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css"/>
     <link rel="stylesheet" href="style.css"/>
-    <!-- Holder JS -->
-    <script src="../bower_components/holderjs/holder.js"></script>
+    <!-- Holder JS
+    <script src="../bower_components/holderjs/holder.js"></script>-->
     <!-- Google Maps API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfHbYE495aMMQpQMZ9jLPd64ua1LETo84"></script>
     <!-- Modernizr -->
@@ -18,6 +18,7 @@
     <script src="../node_modules/bower_components/angular/angular.js"></script>
     <script src="../node_modules/angular-route/angular-route.js"></script>
     <script src="../node_modules/angularjs-geolocation/dist/angularjs-geolocation.min.js"></script>
+    <script src="../js/gservice.js"></script>
 </head>
 <body>
 <div class="container">
@@ -32,7 +33,7 @@
     <div class="row content">
         <!-- Google Map -->
         <div class="col-md-7">
-            <div id="map"><img src="holder.js/645x645"></div>
+            <div id="map" style="width:645px; height:645px"></div>
         </div>
         <!-- Side Panel -->
         <div class="col-md-5">
